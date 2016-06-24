@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+      <meta charset="utf-8">
+        <title> Commande terminal </title>
+  </head>
+    <body>
+    <div class="1er">
+      <h1> Raccourcis </h1>
+        <table>
+          <thead>
+            <tr>
+              <th> Commande </th>
+              <th> Déscription </th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td> Ctrl + A </td>
+                <td> Aller au début de la ligne que vous êtes en train de taper. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + E </td>
+                <td> Allez à la fin de la ligne que vous êtes en train de taper. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + L </td>
+                <td> Effacer l'écran. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + U </td>
+                <td> Efface la ligne avant le position du curseur si vous êtes a la fin Efface la ligne entiére. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + C </td>
+                <td> Stop tout se que vous faites. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + W </td>
+                <td> Supprime le mot avant le curseur. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + K </td>
+                <td> supprime la ligne apres le curseur. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + T </td>
+                <td> Echange les deux caractéres avant le curseur. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + F </td>
+                <td> Déplace un caractére vers la gauche. </td>
+              </tr>
+              <tr>
+                <td> Ctrl + B </td>
+                <td> Déplace un caractére vers la droite. </td>
+              </tr>
+              <tr>
+                <td> Esc + F </td>
+                <td> Déplace un mot vers la gauche. </td>
+              </tr>
+              <tr>
+                <td> Esc + B </td>
+                <td> Déplace un mot vers la droite. </td>
+              </tr>
+              <tr>
+                <td> Esc + T </td>
+                <td> Echanger les deux mots avant le curseur. </td>
+              </tr>
+              <tr>
+                <td> Tab </td>
+                <td> Compléte automatiquement les dossiers et les fichiers. </td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    <div class="2eme"/>
+      <h1> Commande principale </h1>
+        <table>
+          <thead>
+            <th> Commande </ths>
+            <th> Descritpion </th>
+          </thead>
+            <tbody>
+              <tr>
+                <td> cd </td>
+                <td> Aller sur le répertoire d'accueil </td>
+              </tr>
+              <tr>
+                <td> cd - </td>
+                <td> Retourner sur le répertoire précédant </td>
+              </tr>
+              <tr>
+                <td> ls </td>
+                <td> Faire apparaitre une liste courte </td>
+              </tr>
+              <tr>
+                <td> ls -l </td>
+                <td> Faire aparaitre une liste longue </td>
+              </tr>
+              <tr>
+                <td> ls -a </td>
+                <td> liste tout les fichier ainsi que les cachés </td>
+              </tr>
+              <tr>
+                <td> ls -lh </td>
+                <td> Longue liste avec la taille des fichers </td>
+              </tr>
+              <tr>
+                <td> ls -R </td>
+                <td> Affiche tout le contenu du dossier récursive </td>
+              </tr>
+              <tr>
+                <td> sudo "command" </td>
+                <td> Exécuter la commande avec les privilèges de sécurité du superutilisateur </td>
+              </tr>
+              <tr>
+                <td> open "file" </td>
+                <td> ouvre un fichier </td>
+              </tr>
+              <tr>
+                <td> top </td>
+                <td> Affiche les processus actifs . Appuyez sur q pour quitter. </td>
+              </tr>
+              <tr>
+                <td> nano "file" </td>
+                <td> Ouvre le fichier en utilisant l'éditeur de nano </td>
+              </tr>
+              <tr>
+                <td> vim "file" </td>
+                <td> Ouvre le fichier en utilisant l'éditeur de vim </td>
+              </tr>
+              <tr>
+                <td> clear </td>
+                <td> nettoyer l'écran </td>
+              </tr>
+              <tr>
+                <td> reset </td>
+                <td> Remet l'affichage du terminal </td>
+            </tbody>
+        </table>
+      </div>
+      <div class="3eme"/>
+        <h1> Commande historique </h1>
+          <table>
+            <thead>
+              <th> Commande </th>
+              <th> Description </th>
+            </thead>
+              <tbody>
+                <tr>
+                  <td> history n </td>
+                  <td> Affiche la substance dactylographié - ajouter un numéro à limiter les n derniers articles </td>
+                </tr>
+                <tr>
+                  <td> Ctrl + r </td>
+                  <td> Recherche à travers des commandes précédemment tapées </td>
+                </tr>
+                <tr>
+                  <td> !"value" </td>
+                  <td> Exécute la dernière commande tapée qui commence par «valeur» </td>
+                </tr>
+                <tr>
+                  <td> !! </td>
+                  <td> Exécutez la dernière commande tapée </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="4eme"/>
+            <h1> Chercher </h1>
+              <table>
+                <thead>
+                  <th> Commande </th>
+                  <th> Descritpion </th>
+                </thead>
+                  <tbody>
+                    <tr>
+                      <td> find [dir] -name "search_pattern" </td>
+                      <td> Rechercher des fichiers , par exemple trouver / " file.txt " -name utilisateurs </td>
+                    </tr>
+                    <tr>
+                      <td> grep "search_pattern" "file" </td>
+                      <td> Rechercher toutes les lignes qui contiennent le motif, par exemple grep " Tom " file.txt </td>
+                    </tr>
+                    <tr>
+                      <td> grep -r "search_pattern" "file" </td>
+                      <td> rechercher toutes les lignes qui ne contiennent pas le motif "." </td>
+                    </tr>
+                    <tr>
+                      <td> grep -v "search_pattern" "file" </td>
+                      <td> Rechercher toutes les lignes qui ne contiennent pas le motif </td>
+                    </tr>
+                  </tbody>
+            </body>
