@@ -1,8 +1,19 @@
+@media screen and (max-width: 1024px)
+ {
+  font-size: 1em
+    {
+    width: auto;
+    height: auto;
+    /* responsive */
+  }
+}
 body {
   background-color: #9CB7BF;
+  /* fond de la page */
 }
 table,td {
   border:1px solid black;
+  /* création de bordur */
   }
 h1 {
   text-align: center;
